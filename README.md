@@ -10,9 +10,9 @@ Juego interactivo con mecánicas de tablero y preguntas, que utiliza una arquite
 - Pygame
 
 ## Estructura del proyecto
-- `Juego.py`: archivo principal del programa  
-- `Funciones/`: módulos que separan la lógica del juego (estados, archivos, validaciones, audio, etc.)  
-- `Imágenes/`, `Sonidos/`, `Música/`: recursos multimedia utilizados  
+- `juego.py`: archivo principal del programa  
+- `funciones/`: módulos que separan la lógica del juego (estados, archivos, validaciones, audio, etc.)  
+- `img/`, `sonidos/`, `musica/`: recursos multimedia utilizados  
 - Archivos CSV para almacenamiento de datos y puntuaciones
 
 ## Ejecución
