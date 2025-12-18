@@ -1,7 +1,7 @@
 import pygame
 import random
-from Preguntas import *
-from Funciones.Funciones_Validación import *
+from preguntas import *
+from funciones.funciones_validacion import *
 
 def generar_pregunta_aleatoria(preguntas: list) -> dict | None:
     """

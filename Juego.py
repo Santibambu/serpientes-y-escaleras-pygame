@@ -1,6 +1,6 @@
 import pygame
-from Funciones.Funciones_Generales import *
-from Funciones.Funciones_Estados import *
+from funciones.funciones_generales import *
+from funciones.funciones_estados import *
 
 pygame.init()
 DIMENSIÓN_PANTALLA = ((600, 620))
@@ -11,7 +11,7 @@ pygame.display.set_icon(ícono)
 correr = True
 estado_juego = "inicio"
 resolución = None
-FUENTE = pygame.font.Font("Kavoon-Regular.ttf", 18)
+FUENTE = pygame.font.Font("kavoon_regular.ttf", 18)
 
 nombre_jugador = ""
 variables_estado_jugando_validación = {

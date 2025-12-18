@@ -1,8 +1,8 @@
 import pygame
-from Colores import *
-from Coordenadas import *
-from Funciones.Funciones_Auditivas import *
-from Funciones.Funciones_Generales import *
+from colores import *
+from coordenadas import *
+from funciones.funciones_auditivas import *
+from funciones.funciones_generales import *
 
 def validar_respuesta(variables: dict) -> bool:
     """

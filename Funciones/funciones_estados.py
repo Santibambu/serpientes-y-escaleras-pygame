@@ -1,11 +1,11 @@
 import pygame
-from Imágenes import *
-from Funciones.Funciones_Auditivas import *
-from Funciones.Funciones_Generales import *
-from Funciones.Funciones_Color import *
-from Funciones.Funciones_Jugando import *
-from Funciones.Funciones_Validación import *
-from Funciones.Funciones_Archivos import *
+from img import *
+from funciones.funciones_auditivas import *
+from funciones.funciones_generales import *
+from funciones.funciones_color import *
+from funciones.funciones_jugando import *
+from funciones.funciones_validacion import *
+from funciones.funciones_archivos import *
 
 def manejar_estado_inicio(eventos: list, pantalla: pygame.surface.Surface, estado_juego: str) -> str:
     """

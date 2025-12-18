@@ -12,12 +12,12 @@ def reproducir_música(estado_de_juego: str, duración: int = -1):
         duración (int): Duración de la música en milisegundos. Por defecto es -1 (bucle).
     """
     músicas = {
-        "inicio": "./Música/Ancient Sadness.mp3",
-        "nombre": "./Música/Astrologer.mp3",
-        "victoria": "./Música/Grim.mp3",
-        "derrota": "./Música/Master Alarich Theme.mp3",
-        "sin preguntas": "./Música/Tavern Theme.mp3",
-        "atrapado": "./Música/Disturbing.mp3"
+        "inicio": "./musica/ancient_sadness.mp3",
+        "nombre": "./musica/astrologer.mp3",
+        "victoria": "./musica/grim.mp3",
+        "derrota": "./musica/master_alarich_theme.mp3",
+        "sin preguntas": "./musica/tavern_theme.mp3",
+        "atrapado": "./musica/disturbing.mp3"
     }
     if not mixer.music.get_busy():
         for estado, canción in músicas.items():
@@ -42,10 +42,10 @@ def reproducir_sonido(sonido: str):
         sonido (str): Nombre del sonido a reproducir.
     """
     sonidos = {
-        "click": "./Sonidos/Click.mp3",
-        "escalera": "./Sonidos/Escalera.mp3",
-        "serpiente": "./Sonidos/Serpiente.mp3",
-        "temporizador": "./Sonidos/Temporizador.mp3"
+        "click": "./sonidos/click.mp3",
+        "escalera": "./sonidos/escalera.mp3",
+        "serpiente": "./sonidos/serpiente.mp3",
+        "temporizador": "./sonidos/temporizador.mp3"
     }
     for nombre_sonido, ruta_sonido in sonidos.items():
         if nombre_sonido == sonido:
@@ -60,7 +60,7 @@ def reproducir_sonido_aleatorio():
     Parámetros:
         Ninguno
     """
-    sonidos = ["./Sonidos/Tecla1.mp3", "./Sonidos/Tecla2.mp3", "./Sonidos/Tecla3.mp3", "./Sonidos/Tecla4.mp3"]
+    sonidos = ["./sonidos/tecla_1.mp3", "./sonidos/tecla_2.mp3", "./sonidos/tecla_3.mp3", "./sonidos/tecla_4.mp3"]
     número_aleatorio = random.randint(0, 3)
     sonido_aleatorio = sonidos[número_aleatorio]
     efecto = mixer.Sound(sonido_aleatorio)

@@ -1,0 +1,18 @@
+import pygame
+
+ícono = pygame.image.load("./img/icono.png")
+título = pygame.image.load("./img/titulo.png")
+nombre = pygame.image.load("./img/nombre.png")
+colores = pygame.image.load("./img/colores.png")
+fondo_tablero = pygame.image.load("./img/tablero.png")
+validación = pygame.image.load("./img/validacion.png")
+victoria = pygame.image.load("./img/victoria.png")
+derrota = pygame.image.load("./img/derrota.png")
+sin_preguntas = pygame.image.load("./img/sin_preguntas.png")
+resolución_victoria = pygame.image.load("./img/resolucion_victoria.png")
+resolución_derrota = pygame.image.load("./img/resolucion_derrota.png")
+resolución_atrapado = pygame.image.load("./img/resolucion_atrapado.png")
+puntuación_victoria = pygame.image.load("./img/puntuacion_victoria.png")
+puntuación_derrota = pygame.image.load("./img/puntuacion_derrota.png")
+puntuación_atrapado = pygame.image.load("./img/puntuacion_atrapado.png")
+ver_puntuación = pygame.image.load("./img/ver_puntuacion.png")

@@ -1,5 +1,5 @@
-from Coordenadas import *
-from Colores import *
+from coordenadas import *
+from colores import *
 
 def asignar_color_seleccionado(pos: tuple[int, int]) -> tuple[int, int, int]:
     """
