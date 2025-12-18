@@ -31,3 +31,14 @@ Juego interactivo con mecánicas de tablero y preguntas, que utiliza una arquite
 - Gestionar eventos y temporización con Pygame  
 - Persistir datos en archivos CSV y ordenarlos mediante funciones personalizadas  
 - Integrar audio (música y efectos) de forma independiente
+
+## Créditos y aclaraciones
+
+Este proyecto fue desarrollado con fines exclusivamente educativos.
+
+La música utilizada pertenece al videojuego *Graveyard Keeper* y es propiedad de Lazy Bear Games.  
+Se utiliza únicamente con fines académicos y demostrativos, sin intención de uso comercial.
+
+Los efectos de sonido fueron obtenidos del sitio https://www.zapsplat.com.
+
+Las imágenes del proyecto fueron generadas mediante inteligencia artificial (Sora) y se utilizan exclusivamente con fines educativos y de demostración.
